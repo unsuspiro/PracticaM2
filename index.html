@@ -1,12 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/Style.css">
+   
 </head>
+
 <body>
-    <h1>Portfolio</h1>
+    <header>
+        <div class="back">
+            <div class="menu container">
+                <a href="#" class="logo">
+                    <img src="assets/Nombre.png" alt="">
+                </a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="assets/hamburguesa.png" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a class="item" href="#">Inicio</a></li>
+                        <li><a class="item" href="#">Sobre mi</a></li>
+                        <li><a class="item" href="#">Portafolio</a></li>
+                        <li><a class="item" href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <hr class="hr">
+
+
+    <section>
+        <div class="flotante">
+            <img src="assets/flotante.png" alt="Flotante">
+        </div>
+    </section>
+
+    <section class="Inicio">
+        <div class="ilustracion">
+            <img src="assets/Ilustracion.png" alt="ilustracion">
+        </div>
     
+        <div class="Texto">
+            <h1 class="titulo">Portafolio</h1>
+            <p class="parrafo">
+                Soy una diseñadora gráfica con una sólida experiencia en la creación de experiencias visuales atractivas
+                y funcionales. Mi enfoque en UX/UI me permite diseñar interfaces intuitivas que mejoran la interacción
+                del usuario. Actualmente, estoy expandiendo mis habilidades hacia el desarrollo un Front-End, lo que me
+                permitirá llevar mis diseños a la vida mediante el desarrollo web.
+            </p>
+    
+        </div>
+
+    </section>
+
+    <hr class="hr">
+
+    <section>
+        <div class="titulo2">
+            <h1>Sobre mi</h1>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Habilidades</h5>
+                <p class="card-text">Aqui puedes ver algunos de los programas que manejo.
+                </p>
+            </div>
+
+            <div class="iconos">
+                <div class="iconos_img">
+                    <img src="assets/ai.png" alt="ai">
+                </div>
+
+                <div class="iconos_img">
+                    <img src="assets/ps.png" alt="ps">
+                </div>
+
+                <div class="iconos_img">
+                    <img src="assets/id.png" alt="id">
+                </div>
+
+                <div class="iconos_img">
+                    <img src="assets/ae.png" alt="ae">
+                </div>
+
+                <div class="iconos_img">
+                    <img src="assets/pr.png" alt="pr">
+                </div>
+
+                <div class="iconos_img">
+                    <img src="assets/lr.png" alt="lr">
+                </div>
+
+                <div class="iconos_img">
+                    <img src="assets/f.png" alt="f">
+                </div>
+
+                <div class="iconos_img">
+                    <img src="assets/vsc.png" alt="vsc">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="cards-container">
+            <div class="card-logros">
+                <div><img src="assets/logros.png" class="card-img-top" alt="..."></div>
+                <div>
+                    <h5>Logros</h5>
+                </div>
+                <div class="texto-card">
+                    <p class="texto-logros">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                </div>
+            </div>
+
+            <div class="card-logros">
+                <div><img src="assets/objetivos.png" class="card-img-top" alt="..."></div>
+                <div>
+                    <h5>objetivos</h5>
+                </div>
+                <div class="texto-card">
+                    <p class="texto-logros">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr">
+
+
+    </section>
+
+
+    <section>
+
+        <div class="trabajos">
+            <h1 class="seccion-titulo">Portafolio</h1>
+        <p class="card-text">Aqui puedes ver algunos de mis trabajos.
+        </p>
+
+        <div class="">
+            <img src="assets/figma.png" alt="celular">
+            <img src="assets/figma.png" alt="celular">
+            <img src="assets/figma.png" alt="celular">
+        </div>
+
+        </div>
+        <hr class="hr">
+    </section>
+
+
+
+    <div class="titulo3">
+        <h1>Contacto</h1>
+
+    </div>
+
+    <form class="contacto">
+        <div class="row mb-3">
+            <label for="colFormLabelSm" class="nombre">Nombre</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control form-control-sm" id="colFormLabelSm">
+            </div>
+        </div>
+    
+        <div class="row mb-3">
+            <label for="colFormLabelSm" class="nombre">Mail</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control form-control-sm" id="colFormLabelSm">
+            </div>
+        </div>
+    
+        <div class="mensaje">
+            <div class="row mb-3">
+                <label for="colFormLabelm" class="nombre">Mensaje</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-lg" id="colFormLabelSm">
+                </div>
+            </div>
+        </div>
+    
+        <div class="enviar">
+            <button type="submit" class="btn btn-light">Enviar</button>
+        </div>
+    </form>
+    
+
+    <script src="assets/alerta.js"></script>
+
 </body>
+
 </html>

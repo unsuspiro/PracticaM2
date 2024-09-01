@@ -1,0 +1,479 @@
+/* Style desktop*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.flotante img {
+    width: 100px;
+    height: auto;
+    margin-top: 5%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.back {
+    padding: 32px 0;
+    background-color: white;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 80px;
+    margin-bottom: 25px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+    color: #2297FF;
+}
+
+.item {
+    text-decoration: none;
+}
+
+.menu .navbar ul li a:hover {
+    color: #2297FF;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 50px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.card .iconos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos_img {
+    flex-basis: 12%;
+}
+
+
+.Inicio {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.Texto {
+    flex: 1;
+    text-align: left; 
+    margin-right: 20px; 
+    margin-left: 40px;
+    color: #2297FF;
+    font-size: 10px;
+}
+
+.ilustracion {
+    flex: 1;
+    text-align: right;
+}
+
+.ilustracion img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Title styling */
+.titulo {
+    color: #3C3C3B;
+}
+
+
+
+
+
+/* Style tablet*/
+
+@media (max-width: 1023px) {
+
+    .Inicio { 
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center; 
+        width: 100%; 
+        
+    }
+
+    .ilustracion, .Texto {
+        width: 50%; 
+    }
+
+    .ilustracion img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    }
+   
+
+    .flotante img {
+        position: fixed;
+        top: 20px;
+        left: 0px;
+        width: 80px;
+        height: auto;
+        margin-top: 20%;
+        z-index: 1000;
+    }
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .back {
+        padding: 40px 0;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #2297FF;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        color: #FFF;
+        text-align: center;
+    }
+
+    #menu:checked~.navbar {
+        display: block;
+    }
+
+    .titulo2{
+        text-align: center;
+    }
+
+    .iconos_img {
+        flex-basis: 10%;
+    }
+
+    .inicio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .Texto {
+        flex: 1;
+    }
+
+    .Texto .parrafo{
+        margin-right: 40px;
+    }
+
+    .ilustracion {
+        flex: 1;
+        text-align: right;
+    }
+
+    .ilustracion img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cards-container {
+        display: flex;
+        gap: 1.25rem;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+
+    }
+
+    .card-logros {
+        justify-content: center;
+        width: 15rem;
+        text-align: center;
+        padding: 40px;
+        background-color: #eeeeeeea;
+        padding: 0px;
+        border-radius: 10px;
+        margin: auto;
+
+    }
+
+    .card-logros img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .card-logros .texto-card .texto-logros {
+        font-size: 10px;
+        padding: 10px;
+
+    }
+
+    .trabajos{
+        text-align: center;
+    }
+
+    .trabajos img{
+        width: 20%;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .contacto {
+        justify-content: center;
+        text-align: left;
+        background-color: #2297ff;
+        width: 100%;
+        margin: 0 auto;    
+        box-sizing: border-box;
+    }
+
+    .contacto .row {
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 20%;
+    }
+
+
+    .contacto .nombre {
+        color: #FFF;
+    }
+    
+    .boton .btn {
+        position: relative;
+        z-index: 20;
+        margin-bottom: 25px;
+    }
+
+    .contacto .btn {
+        margin-bottom: 40px;
+    }
+
+    .enviar .btn{
+        margin-left: 22%;
+    }
+
+
+
+
+hr {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #2297FF;
+    margin-top: 5px;
+}
+
+/* Style movile*/
+
+@media only screen and (max-width: 600px) {
+    .Inicio {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .ilustracion {
+        width: 100%;
+        margin-bottom: -20px; 
+    }
+
+    .ilustracion img {
+        width: 120%; 
+        height: auto;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .flotante img {
+        position: fixed;
+        top: 20px;
+        left: 0px;
+        width: 70px;
+        height: auto;
+        margin-top: 20%;
+        z-index: 1000;
+    }
+
+
+
+    .item {
+        color: #FFF;
+    }
+
+    .menu .navbar ul li a:hover {
+        color:
+            #d89228;
+    }
+
+    .card-logros {
+        justify-content: center;
+        width: 15rem;
+        text-align: center;
+        padding: 40px;
+        background-color: #eeeeeeea;
+        padding: 0px;
+        border-radius: 10px;
+        margin: auto;
+
+    }
+
+    .card-logros img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .card-logros .texto-card .texto-logros {
+        font-size: 10px;
+        padding: 10px;
+
+    }
+
+    .cards-container {
+        display: flex;
+        gap: 1.25rem;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+
+    }
+
+    .trabajos {
+        text-align: center;
+    }
+
+    .trabajos img {
+        width: 100px;
+        padding: 10px;
+    }
+
+
+
+    .Texto {
+        text-align: left;
+
+    }
+
+    .titulo {
+        font-size: 50px;
+        color: #3C3C3B;
+
+    }
+
+    .parrafo {
+        font-size: 11px;
+        color: #2297FF;
+    }
+
+    .titulo2 {
+        padding: 40px;
+        color: #3C3C3B;
+        text-align: center;
+    }
+
+    .boton .btn {
+        position: relative;
+        z-index: 20;
+        margin-bottom: 25px;
+    }
+
+    .contacto .btn {
+        margin-bottom: 40px;
+    }
+
+    .contacto {
+        justify-content: center;
+        width: 22rem;
+        text-align: center;
+        padding-top: 60px;
+        background-color: #2297ff;
+        padding: 0px;
+        border-radius: 10px;
+        margin: auto;
+
+    }
+
+    .contacto .row {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contacto .nombre {
+        color: #FFF;
+    }
+
+
+}
+
+.contenedor {
+    background-color: #2297FF;
+}
+
+.titulo3{
+    text-align: center;
+}
+
+.card {
+    background-color: #CCECFF;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border: none;
+}
+
+.card-text {
+    font-size: 10px;
+}
+
+.card .iconos img {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+
+}
